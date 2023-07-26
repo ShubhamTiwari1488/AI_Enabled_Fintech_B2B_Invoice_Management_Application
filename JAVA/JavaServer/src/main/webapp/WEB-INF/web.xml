@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1" metadata-complete="true">
+	
+	<display-name>h2h_milestone_3</display-name>
+ 	<welcome-file-list>
+    	<welcome-file>index.html</welcome-file>
+ 	</welcome-file-list>
+  
+	
+	<servlet>
+		<servlet-name>AddInvoice</servlet-name>
+		<servlet-class>com.highradius.servlets.AddServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddInvoice</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ReadInvoice</servlet-name>
+		<servlet-class>com.highradius.servlets.DataLoadingServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReadInvoice</servlet-name>
+		<url-pattern>/read</url-pattern>
+	</servlet-mapping>
+  
+    <servlet>
+    	<servlet-name>UpdateInvoice</servlet-name>
+    <servlet-class>com.highradius.servlets.EditServlet</servlet-class>
+  	</servlet>
+
+  	<servlet-mapping>
+    	<servlet-name>UpdateInvoice</servlet-name>
+    	<url-pattern>/update</url-pattern>
+  	</servlet-mapping>
+  
+    <servlet>
+    	<servlet-name>DeleteInvoice</servlet-name>
+    	<servlet-class>com.highradius.servlets.DeleteServlet</servlet-class>
+  	</servlet>
+
+  	<servlet-mapping>
+    	<servlet-name>DeleteInvoice</servlet-name>
+    	<url-pattern>/delete</url-pattern>
+  	</servlet-mapping>
+	
+</web-app>

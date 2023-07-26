@@ -1,0 +1,13 @@
+127.0.0.1 - - [23/Jun/2023:00:49:20 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [23/Jun/2023:00:49:21 +0530] "GET /JavaServer/index.html HTTP/1.1" 200 1009
+0:0:0:0:0:0:0:1 - - [23/Jun/2023:00:49:21 +0530] "GET /JavaServer/styles.css HTTP/1.1" 200 328
+0:0:0:0:0:0:0:1 - - [23/Jun/2023:00:49:21 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [23/Jun/2023:00:49:25 +0530] "POST /JavaServer/add HTTP/1.1" 500 1290
+0:0:0:0:0:0:0:1 - - [23/Jun/2023:00:49:38 +0530] "POST /JavaServer/read HTTP/1.1" 200 4945
+0:0:0:0:0:0:0:1 - - [23/Jun/2023:00:49:48 +0530] "POST /JavaServer/update HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [23/Jun/2023:00:49:48 +0530] "GET /JavaServer/ReadServlet HTTP/1.1" 404 777
+0:0:0:0:0:0:0:1 - - [23/Jun/2023:00:49:51 +0530] "POST /JavaServer/delete HTTP/1.1" 405 752
+0:0:0:0:0:0:0:1 - - [23/Jun/2023:00:49:55 +0530] "POST /JavaServer/add HTTP/1.1" 500 1290
+0:0:0:0:0:0:0:1 - - [23/Jun/2023:00:49:58 +0530] "POST /JavaServer/read HTTP/1.1" 200 4945
+0:0:0:0:0:0:0:1 - - [23/Jun/2023:00:52:35 +0530] "POST /JavaServer/add HTTP/1.1" 500 1290
+0:0:0:0:0:0:0:1 - - [23/Jun/2023:00:54:41 +0530] "POST /JavaServer/read HTTP/1.1" 200 4945
