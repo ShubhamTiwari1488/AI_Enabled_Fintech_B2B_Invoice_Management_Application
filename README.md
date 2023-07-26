@@ -5,6 +5,7 @@ The Database includes more than 10 Lakhs of data .
 The application fetches the data ( Invoices ) from the databases (which is done using the Java Servlet) and is displayed on the screen.
 
 ### Screenshots of the Application
+
 1. The Opening Page :-
 ![image](https://github.com/shubham488-creator/AI_Enabled_Fintech_B2B_Cloud_Application/assets/73779227/38decf51-17a4-4748-a6fd-bde074a1d3bf)
 
